@@ -1,6 +1,6 @@
 import bold from "./animation";
 
-const songs = ["Pipe down", "Baby Shark", "Nothing on you"];
+const songs = ["Pipe down", "Jumpman", "Nothing on you"];
 
 function printSongs(): void {
     songs.forEach((song) => {
