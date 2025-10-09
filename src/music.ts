@@ -1,8 +1,10 @@
-const songs = ["Pipe down", "Jumpman", "Nothing on you"];
+import bold from "./animation";
+
+const songs = ["Pipe down", "Baby Shark", "Nothing on you"];
 
 function printSongs(): void {
     songs.forEach((song) => {
-        console.log(song);
+        bold(song);
     });
 }
 
