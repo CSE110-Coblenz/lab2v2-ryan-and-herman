@@ -4,6 +4,7 @@ export const snacks = ["Chocolate", "Snowbunnies", "Gummybears", "Boba", "Chips"
 function printSnacks(snacksL: string[]): void {
     for (let i = 0; i < snacksL.length; i++) {
         bold(snacksL[i]);
+        bold(snacksL[i]);
     }
 }
 
