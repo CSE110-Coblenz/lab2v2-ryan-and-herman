@@ -6,4 +6,4 @@ function printSongs(): void {
     });
 }
 
-printSongs();
+export default printSongs;
